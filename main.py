@@ -140,8 +140,9 @@ while True:
     if input_settings == "1":
         print(dashed_sent + "\n")
         while game:
-            # Exiting Case
             letter_input = input("Guess your letter or \"exit\" to quit: ")
+            
+            # Exiting Case
             if letter_input == "exit":
                 exit(0)
 
