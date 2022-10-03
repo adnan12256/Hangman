@@ -164,7 +164,7 @@ while True:
                 fail += 1
                 print(hangman[fail])
                 print("\n```````````````````````````````````````````````````````````````````````````````````````````````````````````````")
-                print(f"Worng letter! Fail count = {fail}")
+                print(f"Wrong letter! Fail count = {fail}")
                 guessed_letters.append(letter_input)
                 print("```````````````````````````````````````````````````````````````````````````````````````````````````````````````\n")
                 if fail == 7:
