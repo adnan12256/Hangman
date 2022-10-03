@@ -136,8 +136,8 @@ while True:
     success_turn = 0
     guessed_letters = []
     input_settings = input("Press 1 to play, 2 for instructions or anything else to quit: ")
-    print(hangman[fail])
     if input_settings == "1":
+        print(hangman[fail])
         print(dashed_sent + "\n")
         while game:
             letter_input = input("Guess your letter or \"exit\" to quit: ")
